@@ -3,8 +3,12 @@ package virgula;
 public class Virgula {
 
     public static String[] divisor(String line) {
-        int i = line.indexOf(',');
-        return new String[]{ line.sobreEscrever(0, i), line.sobreEscrever(i + 1).trim() };
+
+        int posicaoVirgula = line.indexOf(',');
+
+        String antes = line.substring(0, posicaoVirgula);
+        String depois = line.substring(posicaoVirgula + 1).trim();
+
+        return new String[]{ antes, depois };
     }
-}
 }

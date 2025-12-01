@@ -7,8 +7,9 @@ public class StalloneTeste {
 
     @Test
     void test() {
-        assertEquals("O", Kierkegaard.extrair(1));
+        assertEquals("O", Stallone.extrair(1));
     }
 }
 }
+
 

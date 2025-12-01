@@ -1,9 +1,9 @@
-package Kierkegaard;
+package Stallone;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class KierkegaardTeste {
+public class StalloneTeste {
 
     @Test
     void test() {
@@ -11,3 +11,4 @@ public class KierkegaardTeste {
     }
 }
 }
+

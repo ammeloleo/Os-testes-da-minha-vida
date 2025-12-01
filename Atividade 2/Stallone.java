@@ -1,6 +1,6 @@
-package Kierkegaard;
+package Stallone;
 
-public class Kierkegaard {
+public class Stallone {
 
     private static final String Falar = "Você, eu, ninguém vai bater tão duro como a vida, ROCKY BALBOA";
 
@@ -10,3 +10,4 @@ public class Kierkegaard {
     }
 
 }
+
